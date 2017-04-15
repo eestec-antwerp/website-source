@@ -11,16 +11,5 @@ Test changes locally by running the server:
     hugo server -D
 
 See them live at <http://localhost:1313>.
-When everything works as expected you can (re)build the website with `deploy.sh`.
 
-This updates the website itself, not your current source repository so you can keep
-cleanly separated commit histories.
-It is best to first run the `deploy.sh` script and then commit all changes to
-the source.
-
-### Writing new posts
-In the website source root:
-
-    hugo new post/naam.md
-
-Then follow steps for website code changes
+TODO Travis docs
