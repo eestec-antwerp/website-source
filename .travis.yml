@@ -6,6 +6,9 @@ go:
 notifications:
   email: false
 
+before_install:
+  - echo "Do nothing"
+
 before_script:
   - go get -u -v github.com/spf13/hugo
 
