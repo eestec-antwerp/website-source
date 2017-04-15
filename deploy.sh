@@ -27,7 +27,13 @@ SHA=`git rev-parse --verify HEAD`
 # Clone the existing gh-pages for this repo into out/
 # Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deply)
 rm -rf out
+echo "For real Travis there are no files here"
+ls
+
+echo "Now try to clone"
 git clone $TARGET_REPO out
+echo "Okay done cloning?"
+
 cd out
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cd ..
