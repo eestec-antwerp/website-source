@@ -11,13 +11,12 @@ cache:
 notifications:
   email: false
 
-before_install:
-  - echo "Do nothing"
-
 before_script:
-  - go get -v github.com/spf13/hugo  # use -u flag to always check for updates
+  - go get -v github.com/spf13/hugo  # use -u flag to always check for updates (slows down travis a lot since cache isn't used)
 
 script:
+  - ls
+  - md5sum deploy.sh
   - bash ./deploy.sh
 
 env:
