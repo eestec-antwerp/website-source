@@ -26,13 +26,14 @@ SHA=`git rev-parse --verify HEAD`
 
 # Clone the existing gh-pages for this repo into out/
 # Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deply)
+rm -rf out
 git clone $TARGET_REPO out
 cd out
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cd ..
 
 # Clean out existing contents
-rm -rf out || exit 0
+rm -rf out
 
 # Run our compile script
 doCompile
