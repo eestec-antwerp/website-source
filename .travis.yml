@@ -3,6 +3,11 @@ language: go
 go:
   - 1.x
 
+cache:
+  directories:
+    - $GOPATH/src
+    - $GOPATH/pkg
+
 notifications:
   email: false
 
@@ -12,7 +17,9 @@ before_install:
 before_script:
   - go get -u -v github.com/spf13/hugo
 
-script: bash ./deploy.sh
+script:
+  - bash ./deploy.sh
+
 env:
   global:
   - ENCRYPTION_LABEL: "71485ef889a6"
