@@ -1,0 +1,10 @@
+language: go
+
+before_script:
+  - go get -u -v github.com/spf13/hugo
+
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: "71485ef889a6"
+  - COMMIT_AUTHOR_EMAIL: "admin@eestec.be"
