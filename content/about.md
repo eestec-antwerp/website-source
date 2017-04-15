@@ -13,7 +13,7 @@ Het doel van EESTEC is om internationalisatie en studenten mobiliteit te promote
 EESTEC groeit snel en is momenteel al verspreid over meer dan [50 Europese
 steden](https://eestec.net/cities).
 
-Meer info vind je [hier](https://www.eestec.net).
+Meer info vind je op de [website van EESTEC International](https://www.eestec.net).
 
 
 Wat is EESTEC Antwerpen?
