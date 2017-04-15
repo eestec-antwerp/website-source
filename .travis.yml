@@ -1,23 +1,26 @@
 language: go
-
 go:
-  - 1.x
+- 1.x
 
 cache:
   directories:
-    - $GOPATH/pkg
+  - "$GOPATH/pkg"
 
 notifications:
   email: false
+  slack:
+    secure: E+EJy9jKglZ3Vm9tZ3YBe3mA+SHQSACMiIl+qMIZaRo7h5e7UokrD1Vdr6s2y1nyffM76UhFCMdwfPUTEQo+8LpBzl7FCOGdCEN/gjVxhI/43d9JnXxUKQZRsZXbhILC9wRQqL+FK28ju39cOUm84hCDDW3AL2rmg8GyYgFhgL/ilK92mvsLxkJn/2f9yZ1EknoGpD6DtdIF/4KpnnRDUJhNpHvZWdTQc6RZoJ0PEiRVh55qfkd1sR5rTJmj+pKgUPM63yXmUVW3faTeuXEaZnuXjirK+lu+ZWboyCjhWc5bynlfi9XYBojuEKIwNXXCFUn14otWC4o5r+sssRMWaiCJtzZztUo19SEG7G4cHlpiqvJh01T37Lh0Z80dJN/s1IPItpkMFsaB4STl6pVObETsjPMfsNBI7nYeewMGOXf0XvgBXH6Pq5qJ4InJVvDCjIeS+wMjw2OcUfXlhnVdF+7O6on7BKIOgnjmko7kkCxVyG1/hBb3DrGXQSUQv593RpXBoz3Yo3qvXO1hPjmh5H9ivnc55HHGzI3e4wgympT5pcQtNDR32rrkn3O1qK1FhY5rN9ltGquZz6FHptuN67wDnf3lbMn6w0MEFZxQN2MGl/qd4zYoeYWyUNArzNVbFvjSOmT/pQu5IjXqLQTaMojwseKcnsQ16dXP+7PSUT4=
+    on_success: change # default: always
+    on_failure: always # default: always
 
 before_script:
-  - go get -v github.com/spf13/hugo  # use -u flag to always check for updates (slows down travis a lot since cache isn't used)
+- go get -v github.com/spf13/hugo
 
 script:
-  - md5sum deploy.sh
-  - bash ./deploy.sh
+- md5sum deploy.sh
+- bash ./deploy.sh
 
 env:
   global:
-  - ENCRYPTION_LABEL: "71485ef889a6"
-  - COMMIT_AUTHOR_EMAIL: "admin@eestec.be"
+  - ENCRYPTION_LABEL: 71485ef889a6
+  - COMMIT_AUTHOR_EMAIL: admin@eestec.be
