@@ -2,9 +2,14 @@
 {{ partial "header.html" . }}
 
 <div class="showcase-wrapper sticky">
+	<div class="showcase">
     {{ with .Site.Params.showcase }}
     <div class="showcase-text">{{.}}</div>
     {{ end }}
+    <div class="showcase-more">Wij zijn een studentenorganisatie die zich focust op <b>ervaring en kennis</b>. Wij doen dit door talks, studentenjobs maar ook internationale ervaring.<br/>
+    <a href="/about"><button type="button" class="btn btn-default showcase-button">Meer weten</button></a>
+    <a href="{{ .Site.Params.Registerlink }}" target="_blank"><button type="button" class="btn btn-default showcase-button">Word lid</button></a></div>
+    </div>
 </div>
 
 <div class="container">

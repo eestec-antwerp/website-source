@@ -19,6 +19,9 @@
                     <a href="{{.URL}}"> {{ .Name }} </a>
                 </li>
                 {{ end }}
+                <li>
+					<a href="{{ .Site.Params.Registerlink}}" target="_blank">Word lid!</a>
+				</li>
             </ul>
             <hr/>
             <ul class="nav navbar-nav">
@@ -47,6 +50,9 @@
             <a href="{{.URL}}"> {{ .Name }} </a>
         </li>
         {{ end }}
+        <li>
+            <a href="{{ .Site.Params.Registerlink}}" target="_blank">Word lid!</a>
+        </li>
         <hr />
         <div id="social-wrapper">
             {{ partial "social.html" . }}
