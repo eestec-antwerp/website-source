@@ -40,7 +40,7 @@
             {{ with .Site.Params.logo }}
                 <img src="{{ . }}" />
             {{ else }}
-                <h1 class="brand">{{ .Site.Title }}</h1>
+                {{ .Site.Title }}
             {{ end }}
             </a>
             <h3>{{ .Site.Params.description }}</h3>
