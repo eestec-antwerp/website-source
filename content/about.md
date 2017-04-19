@@ -26,9 +26,9 @@ Sinds 2012 zijn we een volwaardig lid zijn van deze organisatie. We hebben al ve
 
 Daarnaast werken we ook samen met organisaties zoals [AIESEC](http://aiesec.be/) en [AFT](http://www.aftleuven.be) om jullie ook internationale stages etc aan te bieden. 
 
-# Interesse? [Word (gratis) lid!](https://goo.gl/forms/b4bYoXZHwRtMWVgF3)
+# Interesse? [Word (gratis) lid!](https://goo.gl/forms/QqiRTMPc5DM75Aen2)
 
-Om jullie beter van dienst te zijn, vragen we om lid te worden via [dit formulier](https://goo.gl/forms/b4bYoXZHwRtMWVgF3).
+Om jullie beter van dienst te zijn, vragen we om lid te worden via [dit formulier](https://goo.gl/forms/QqiRTMPc5DM75Aen2).
 
 Like ons ook zeker op [Facebook](https://www.facebook.com/eestecantwerp) en volg ons op [Twitter](https://www.twitter.com/eestecantwerp)!
 
