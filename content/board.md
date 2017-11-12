@@ -9,19 +9,19 @@ Current board
 
 Chairman
 --------
-![chairman profile](/img/evert\ profile.png)
+![chairman profile](/img/cedric_de_schepper.jpg)
 
-Evert Heylen
+Cedric De Schepper
 
-* Mail: <chairman@eestec.be>, <evert@eestec.be>
+* Mail: <chairman@eestec.be>, <cedric@eestec.be>
 
 Treasurer
 ---------
-![treasurer profile](/img/stijn\ profile.jpg)
+![treasurer profile](/img/jonathan_meyer.jpg)
 
-Stijn Janssens
+Jonathan Meyer
 
-* Mail: <treasurer@eestec.be>, <stijn@eestec.be>
+* Mail: <treasurer@eestec.be>, <jonathan@eestec.be>
 
 Contact Person
 --------------
@@ -42,7 +42,7 @@ Anthony Hermans
 KdG Representative
 ------------------
 
-![bart profile](/img/bart\ profile.jpg)
+![bart profile](/img/bart_verhoeven.jpg)
 
 Bart Verhoeven
 
@@ -65,3 +65,5 @@ Olivier Brewaeys
 Simon Van Mierlo
 
 * Mail: <simon@eestec.be>
+
+
