@@ -38,5 +38,5 @@ KdG Representative
 
 Bart Verhoeven
 
-* Mail: <bart@eestec.be>
+* Mail: <bart@eestec.be>, <bart.verhoeven@student.kdg.be>
 
