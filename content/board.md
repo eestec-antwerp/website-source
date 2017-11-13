@@ -25,19 +25,11 @@ Jonathan Meyer
 
 Contact Person
 --------------
-![cp profile](/img/jeroen\ profile.jpg)
+![cp profile](/img/chris_nsana.jpg)
 
-Jeroen Verstraelen
+Chris Nsana
 
-* Mail: <cp@eestec.be>, <jeroen@eestec.be>
-
-Public Relations
-----------------
-![pr profile](/img/anthony\ profile.jpg)
-
-Anthony Hermans
-
-* Mail: <anthony@eestec.be>
+* Mail: <cp@eestec.be>, <chris@eestec.be>
 
 KdG Representative
 ------------------
@@ -47,23 +39,4 @@ KdG Representative
 Bart Verhoeven
 
 * Mail: <bart@eestec.be>
-
-
-Oversight
-=========
-
-![olivier profile](/img/olivier\ profile.jpg)
-
-Olivier Brewaeys
-
-* Mail: <olivier@eestec.be>
-
-<br/>
-
-![pr profile](/img/simon\ profile.jpg)
-
-Simon Van Mierlo
-
-* Mail: <simon@eestec.be>
-
 
