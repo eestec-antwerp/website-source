@@ -1,6 +1,6 @@
 +++
 title = "AI Talk"
-date = "2018-11-28T11:00:00+01:00"
+date = "2018-11-27T11:00:00+01:00"
 +++
 
 [![Banner](/img/aitalk.png)](https://www.facebook.com/events/358272578075079/)
